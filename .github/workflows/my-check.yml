@@ -14,3 +14,10 @@ jobs:
       - run: make install
       - run: make lint
       - run: make test-coverage
+      - name: Test & publish code coverage
+        uses: paambaati/codeclimate-action@v3.0.0
+        env:
+          CC_TEST_REPORTER_ID: 80d12e7f1b885d48eacd315a5ac3c54011aa90473e6afe00d366f6230e5629b0
+        with:
+          coverageCommand: make test-coverage
+          debug: true
