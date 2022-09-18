@@ -5,8 +5,22 @@
 
 ### Description
 
+A difference calculator is a program that determines the difference between two data structures. This is a popular task for which there are many online services, such as http://www.jsondiff.com/. A similar mechanism is used when outputting tests or when automatically tracking changes in configuration files.
 
 ### install
 
+## Setup
 
-### Description
+```bash
+make install
+```
+
+## Run tests
+
+```bash
+make lint
+make test
+make test-coverage
+```
+
+### Demonstration
