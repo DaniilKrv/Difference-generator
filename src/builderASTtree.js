@@ -16,7 +16,7 @@ const buildASTtree = (obj1, obj2) => {
 
     if (key in obj1 && key in obj2) {
       if (_.isObject(value1) && _.isObject(value2)) {
-        return initTree(key, 'unchanged', buildASTtree(value1, value2), '', ''); 
+        return initTree(key, 'unchanged', buildASTtree(value1, value2), '', '');
       }
 
       if (value1 === value2) {

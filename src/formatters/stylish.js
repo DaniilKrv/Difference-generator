@@ -53,7 +53,6 @@ export const stylish = (coll, replacer = ' ', spacesCount = 2) => {
         return `${commonIndent}- ${name}: ${oldValueAsString}`;
       }
 
-      // If nothing changed
       return `${commonIndent}  ${name}: ${oldValueAsString}`;
     });
 
