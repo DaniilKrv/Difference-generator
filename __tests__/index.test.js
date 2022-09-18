@@ -1,8 +1,8 @@
 /* eslint-disable no-undef */
 import { fileURLToPath } from 'url';
-import compare from '../src/index.js';
 import path from 'path';
 import fs from 'fs';
+import compare from '../src/index.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

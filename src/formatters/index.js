@@ -10,5 +10,7 @@ export default (data, format) => {
       return makePlain(data);
     case 'json':
       return makeJSON(data);
+    default :
+      throw new RangeError("incorrect extension");
   }
 };
