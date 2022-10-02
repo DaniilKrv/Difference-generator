@@ -23,3 +23,4 @@ make test-coverage
 ```
 
 ### Demonstration
+[![asciicast](https://asciinema.org/a/3YWoB8lG3pZzFE1MB7I52u9S9.svg)](https://asciinema.org/a/3YWoB8lG3pZzFE1MB7I52u9S9)
